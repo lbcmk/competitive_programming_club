@@ -1,2 +1,4 @@
 /week 1 - intermediate
 .cph/
+*.bin
+*.exe
