@@ -1,4 +1,5 @@
-/week 1 - intermediate
+/ignore_*
+ignore_*.*
 .cph/
 *.bin
 *.exe
