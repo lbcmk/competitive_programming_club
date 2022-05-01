@@ -23,14 +23,11 @@ Output:
 using namespace std;
 
 int main() {
-    int N, M;
+    int N, M, I[2];
     cin >> N >> M;
 
     vector<int> A(N-1), PSA(N-1);
     for(int i = 0; i<N; i++) cin >> A[i];
-
-
-    int I[2];
 
     PSA[0] = A[0];
     for(int i = 1; i < N; i++)  PSA[i] = PSA[i-1] + A[i];
