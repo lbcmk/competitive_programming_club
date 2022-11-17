@@ -3,3 +3,5 @@ ignore_*.*
 .cph/
 *.bin
 *.exe
+*/ignore_*
+*/*/ignore_*
